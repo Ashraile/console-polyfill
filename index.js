@@ -1,4 +1,4 @@
-// Console-polyfill. MIT license. | https://github.com/paulmillr/console-polyfill | Makes it safe to do console.log() always.
+// Console polyfill | https://github.com/paulmillr/console-polyfill | (MIT) | Makes it safe to do console.log() always.
 ;(function(w, f, prop, method) { // "use strict";
     if (!w.console) {w.console = {}}
     var con = w.console, properties = ['memory'], methods = [
